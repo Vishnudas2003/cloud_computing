@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>System Monitor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-6">
+    <div class="bg-white shadow-lg rounded-2xl p-8 max-w-md w-full">
+        <h1 class="text-2xl font-bold text-gray-800 mb-4 text-center">System Resource Monitor</h1>
+        
+        <div class="mb-4">
+            <p class="text-lg text-gray-700"><strong>CPU Utilization:</strong> {{ cpu_percent}}%</p>
+            <p class="text-lg text-gray-700"><strong>Memory Utilization:</strong> {{ mem_percent }}%</p>
+        </div>
+
+        {% if message %}
+            <div class="bg-red-100 text-red-700 p-4 rounded-lg mt-4 text-center font-semibold">
+                ⚠️ {{ message }}
+            </div>
+        {% else %}
+            <div class="bg-green-100 text-green-700 p-4 rounded-lg mt-4 text-center font-semibold">
+                ✅ All systems normal.
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
