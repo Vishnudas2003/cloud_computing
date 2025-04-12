@@ -17,6 +17,7 @@ Create Kubernetes Deployments and Services using Python!
 - Used different parameters for preparing 
 - source refered : https://www.youtube.com/watch?v=kBWCsHEcWnc&t=949s&ab_channel=CloudChamp
 - github : https://github.com/N4si/cloud-native-monitoring-app
+- Added the docker file
 
 Stats Cards:
 
