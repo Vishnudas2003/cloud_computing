@@ -28,8 +28,16 @@ Create Kubernetes Deployments and Services using Python!
         - Expose the port on which the Flask app will run
         - Start the Flask app when the Container is run
 
-Run docker using  "docker build -t my-flask-app ."
+- Run docker using  "docker build -t my-flask-app ."
 
+- next step is to deploy in Kubernetes
+
+- ECR share deploy container, publically and privtelly Create a repository to store the images to store then use by containers in kubernetes  
+
+- Instead of creating Repository in ECR website, we are using Boto3 for creating the EC2 repository
+
+
+- Creating ECR repository in Python
 
 Stats Cards:
 
