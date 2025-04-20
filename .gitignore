@@ -1,0 +1,47 @@
+# Ignore virtual environments
+.venv/
+env/
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# dotenv (credentials and configs)
+.env
+.env.*
+
+# AWS credentials or config dumps (if any)
+*.pem
+*.key
+*.aws
+
+# Logs or debug files
+*.log
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# Pycharm / IDE files
+.idea/
+
+# Ignore compiled C extensions
+*.so
+
+# Ignore test coverage and build outputs
+coverage/
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Ignore Docker stuff (if you're using it)
+docker-compose.override.yml
