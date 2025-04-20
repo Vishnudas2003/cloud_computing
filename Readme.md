@@ -36,8 +36,7 @@ Create Kubernetes Deployments and Services using Python!
 
 - Instead of creating Repository in ECR website, we are using Boto3 for creating the EC2 repository
 
-
-- Creating ECR repository in Python
+- Created the repository using Boto3 successfully. In the Amazon ECR console the repository is properly visiible
 
 Stats Cards:
 
