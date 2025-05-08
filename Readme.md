@@ -53,3 +53,5 @@ Running Processes
 Network I/O
 
 - code not pushing to the github, tryoing to fix the erro by checking in readme.md
+
+- checking after updating the config for the new OS
